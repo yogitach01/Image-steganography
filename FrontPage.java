@@ -22,6 +22,7 @@ import java.net.URISyntaxException;
 		 setLayout(new BorderLayout()); 
 			JLabel background=new JLabel(new ImageIcon("D:\\stego.jpeg"));
 			add(background);
+			
 			background.setLayout(new FlowLayout());
 			
 		create=new JButton("CLICK ME ");
